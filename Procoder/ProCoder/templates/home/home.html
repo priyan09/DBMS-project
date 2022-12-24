@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+
+
+{% block title %} Home {% endblock title %}
+
+
+
+{% block body %}
+{% load static %}
+<div class="container my-3">
+
+<html lang="en">
+
+    <body>
+        <main>
+            <div class="container my-3">
+
+                <section _ngcontent-serverapp-c44 class="jumbotron text-center">
+                    <div _ngcontent-serverapp-c44 class="container">
+
+                       
+
+                        <h1 _ngcontent-serverapp-c44 class="jumbotron-heading">
+
+                            <span _ngcontent-serverapp-c44 id="typed">Welcome to ProCoder</span>
+                            <span class="typed-cursor" aria-hidden="true"></span>
+
+                        </h1>
+                        <p _ngcontent-serverapp-c44="" class="lead text-muted">Confused on which course to take? We have
+                            got you covered. Browse courses and find out the best course for you. Its free!<br
+                                _ngcontent-serverapp-c44="">"Code With ProCoder" is our attempt to teach basics and those
+                            coding techniques to people in short time which took me ages to learn.</p>
+
+                        <p _ngcontent-serverapp-c44="">
+                            <a _ngcontent-serverapp-c44="" routerlink="/blog" class="btn btn-dark my-2"
+                                href="/blog">Our Blog</a>
+                            
+            
+                                 <a _ngcontent-serverapp44="" routerlink="/hire" class="btn btn-dark my-2"
+                                href="/hire">Hire Us</a>
+                                 <a _ngcontent-serverapp-c44="" routerlink="/project" class="btn btn-dark my-2"
+                                href="/project">Our Protfolio</a>
+                                <a _ngcontent-serverapp-c44="" routerlink="/about" class="btn btn-dark my-2"
+                                href="/about">About Us</a>
+                        </p>
+                     </div>
+                </section>
+            </div>
+
+
+<!-- Marketing messaging and featurettes
+  ================================================== -->
+<!-- Wrap the rest of the page in another container to center all the content. -->
+
+
+  
+<div class="container marketing">
+                <div _ngcontent-serverapp-c44="" class="row">
+                    <div _ngcontent-serverapp-c44="" class="card mx-auto my-2 p-2 align-items-center"
+                        style="width: 18rem;"><img _ngcontent-serverapp-c44="" src="{% static '/home/img/2.png' %}"
+                            alt="..." class="padded card-img-top">
+                        <div _ngcontent-serverapp-c44="" class="card-body">
+                            <h5 _ngcontent-serverapp-c44="" class="card-title text-center">Coding Articles</h5>
+                            <p _ngcontent-serverapp-c44="" class="card-text text-center">Some of the latest coding information compiled in the form of coding articles. Keep your programming knowledge up to date with these articles.</p><a _ngcontent-serverapp-c44="" routerlink="/blog"
+                                class="btn btn-dark d-block" href="/blog">Browse Blog</a>
+                        </div>
+                    </div>
+                    <div _ngcontent-serverapp-c44="" class="card mx-auto my-2 p-2 align-items-center"
+                        style="width: 18rem;"><img _ngcontent-serverapp-c44="" src="{% static '/home/img/siam2.png' %}"
+                            alt="..." class="padded card-img-top">
+                        <div _ngcontent-serverapp-c44="" class="card-body">
+                            <h5 _ngcontent-serverapp-c44="" class="card-title text-center">Our Portfolio</h5>
+                            <p _ngcontent-serverapp-c44="" class="card-text text-center">ProCoder provides frontend and backend developer. You can visit Our Portfolio. There we given our best projects.</p><a _ngcontent-serverapp-c44="" routerlink="/project"
+                                class="btn btn-dark d-block" href="/project">Go to Our Portfolio </a>
+                        </div>
+                    </div>
+                    <div _ngcontent-serverapp-c44="" class="card mx-auto my-2 p-2 align-items-center"
+                        style="width: 18rem;"><img _ngcontent-serverapp-c44="" src="{% static '/home/img/siam3.png' %}"
+
+                            alt="..." class="padded card-img-top">
+                        <div _ngcontent-serverapp-c44="" class="card-body">
+                            <h5 _ngcontent-serverapp-c44="" class="card-title text-center">Hire Us</h5>
+                            <p _ngcontent-serverapp-c44="" class="card-text text-center">Whether a business wants to hire a frontend and backend developer for its existing website or build a brand new web application, we have experts here at ProCoder who know how to provide an excellent user experience on any device, be it mobile, desktop, or tablet.</p><a _ngcontent-serverapp-c44=""
+                                routerlink="/hire" class="btn btn-dark d-block" href="/hire">Hire Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+
+    </html>
+</div>
+{% endblock body %}
